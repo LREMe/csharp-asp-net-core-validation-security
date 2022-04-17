@@ -1,6 +1,6 @@
 # Improve Security of an ASP.NET Core Application Using Validation
 
-In this project we’ll take an existing conference application written in ASP.NET Core, and implement validation in order to better secure our application from bad data entry, as well as injection attacks.
+In this project weâ€™ll take an existing conference application written in ASP.NET Core, and implement validation in order to better secure our application from bad data entry, as well as injection attacks.
 
 # Setup the Application
 
@@ -81,7 +81,7 @@ _While we've set up the `DataAnnotations` needed for our validation, we still ha
       - `asp-validation-summary` set to `"ModelOnly"`
       - `class` set to `"text-danger"`
   - [ ] For each of our `Create` form's inputs, add a `span` tag with the following attributes:
-    - `asp-validate-for` set to the same value as the `asp-for` of the corresponding `input`
+    - `asp-validation-for` set to the same value as the `asp-for` of the corresponding `input`
     - `class` set to `"text-danger"`
 
 _Now that we have client side validation setup on our Speaker's Create form, we should also set up our server side validation. Client side validation is helpful, but shouldn't be relied on by itself as it is easy to bypass accidentally or maliciously._
